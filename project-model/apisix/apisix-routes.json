@@ -1,0 +1,19 @@
+{
+  "routes": [
+    {
+      "uri": "/data/*",
+      "upstream": "http://127.0.0.1:9001",
+      "strip_uri": true
+    },
+    {
+      "uri": "/api/*",
+      "upstream": "http://127.0.0.1:9002",
+      "strip_uri": true
+    },
+    {
+      "uri": "/ui/*",
+      "upstream": "http://127.0.0.1:9003",
+      "strip_uri": true
+    }
+  ]
+}

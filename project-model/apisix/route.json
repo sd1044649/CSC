@@ -1,0 +1,1 @@
+{"uri":"/ui/*","methods":["GET"],"upstream":{"type":"roundrobin","nodes":{"host.docker.internal:9003":1}},"strip_uri":true}
